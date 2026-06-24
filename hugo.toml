@@ -2,7 +2,8 @@ baseURL = "https://nXiaoK.github.io/blog/"
 languageCode = "zh-cn"
 title = "技术笔记"
 theme = "PaperMod"
-paginate = 10
+[pagination]
+  pagerSize = 10
 
 [params]
   env = "production"
