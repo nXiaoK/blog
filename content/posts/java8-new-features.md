@@ -505,10 +505,12 @@ String mime = Base64.getMimeEncoder().encodeToString(data);
 
 | 场景 | 建议 |
 |------|------|
-| 老项目维护 | 继续使用 Java 8，LTS 支持到 2030 年 |
-| 新项目启动 | 建议直接使用 Java 17 或 21 |
-| Spring Boot 3.x | 最低要求 Java 17 |
+| 老项目维护 | 继续使用 Java 8，Extended Support 到 2030 年（Oracle JDK 需订阅） |
+| 新项目启动 | 建议直接使用 Java 21 或 25（均为 LTS） |
+| Spring Boot 4.x | 最低要求 Java 17，推荐 Java 21+ |
 | 学习 Lambda/Stream | Java 8 特性是最基础的，必须掌握 |
+
+> 💡 **LTS 版本线**：Java 8 → 11 → 17 → 21 → **25**（2025 年 9 月发布）→ 29（2027 年 9 月）
 
 ## 总结
 

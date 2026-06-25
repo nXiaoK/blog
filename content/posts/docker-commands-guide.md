@@ -10,6 +10,8 @@ tags: ["Docker", "容器", "DevOps", "运维", "Docker Compose"]
 
 Docker 已经成为现代开发运维的基础设施。无论是本地开发环境搭建、微服务部署，还是 CI/CD 流水线，Docker 都扮演着核心角色。本文整理了 Docker 最常用的命令和实战技巧。
 
+> **当前版本**：Docker Engine v29.6.0（2026 年 6 月）。containerd 镜像存储已成为默认，Docker Scout 用于供应链安全扫描。
+
 ## 1. 镜像管理
 
 ### 1.1 拉取与查看
@@ -358,6 +360,8 @@ networks:
   app-net:
     driver: bridge
 ```
+
+> **Docker Compose V1（`docker-compose`）已完全弃用**，请使用 V2（`docker compose`，无连字符）。
 
 ### 6.2 常用命令
 

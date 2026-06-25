@@ -42,8 +42,11 @@ Spring Cloud 是基于 Spring Boot 的微服务架构解决方案，提供了一
 
 | Spring Cloud | Spring Boot | 主要组件 |
 |-------------|-------------|---------|
-| 2022.0.x (Kilburn) | 3.0.x | Nacos 2.x, Sentinel, Gateway |
-| 2023.0.x (Leyton) | 3.2.x | Nacos 2.x, Sentinel, Gateway |
+| 2024.0.x | 3.4.x / 3.5.x | Nacos 2.x, Sentinel, Gateway |
+| 2023.0.x (Leyton) | 3.2.x / 3.3.x | Nacos 2.x, Sentinel, Gateway |
+| 2022.0.x (Kilburn) | 3.0.x / 3.1.x | Nacos 2.x, Sentinel, Gateway |
+
+> Spring Boot 4.x 适配的 Spring Cloud 版本请参考官方文档。
 
 ### 2.1 依赖管理（pom.xml）
 

@@ -8,7 +8,7 @@ tags: ["K3s", "Kubernetes", "轻量级", "边缘计算", "IoT", "云原生"]
 
 ## 前言
 
-K3s 是 Rancher（现为 SUSE 旗下）开源的轻量级 Kubernetes 发行版。它将 K8s 打包为一个不到 100MB 的二进制文件，资源占用极低，专为边缘计算、IoT、CI/CD 和资源受限环境设计。K3s 完全兼容标准 K8s API，是学习和部署 K8s 的绝佳选择。
+K3s 是 Rancher（现为 SUSE 旗下）开源的轻量级 Kubernetes 发行版。它将 K8s 打包为一个不到 100MB 的二进制文件，资源占用极低，专为边缘计算、IoT、CI/CD 和资源受限环境设计。K3s 完全兼容标准 K8s API，是学习和部署 K8s 的绝佳选择。当前最新版本为 **v1.36.2+k3s1**（2026 年 6 月），内置 Kubernetes v1.36.2、Traefik v3.7.4、containerd v2.3.2。
 
 ## 1. K3s vs K8s 对比
 

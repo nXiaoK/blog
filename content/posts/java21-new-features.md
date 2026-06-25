@@ -424,4 +424,6 @@ Java 21 的核心特性：
 - **未命名变量** — 用 `_` 忽略不需要的变量
 - **分代 ZGC** — 更强的低延迟垃圾收集
 
-如果你在用 Spring Boot 3.2+，可以直接使用 Java 21。虚拟线程是最大的卖点——对于 IO 密集型服务，性能提升非常可观。
+如果你在用 Spring Boot 3.2+/4.x，可以直接使用 Java 21。虚拟线程是最大的卖点——对于 IO 密集型服务，性能提升非常可观。
+
+> 💡 **Java 25 LTS** 已于 2025 年 9 月发布，新增了 Structured Concurrency 正式版、Scoped Values 正式版、Compact Object Headers 等特性。如果是全新项目，建议直接上 Java 25。

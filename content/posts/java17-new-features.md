@@ -440,7 +440,7 @@ java --illegal-access=deny -jar app.jar
 | Switch 表达式 | ❌ | ✅ |
 | 新 HttpClient | ❌ | ✅ |
 | ZGC/Shenandoah | ❌ | ✅ (生产就绪) |
-| LTS 支持截止 | 2030 年 | 2029 年 9 月 |
+| LTS 支持截止 | Extended 2030 年 | Premier **2026.9**，Extended 2029.9 |
 
 ## 总结
 
@@ -454,4 +454,6 @@ Java 17 的核心特性：
 - **新 HttpClient** — 现代化的 HTTP 客户端
 - **ZGC/Shenandoah** — 低延迟垃圾收集器正式可用
 
-如果你的项目还在 Java 8，现在是升级到 Java 17 的好时机。Spring Boot 3.x、Spring Cloud 2022+ 都要求 Java 17 最低版本。
+如果你的项目还在 Java 8，现在是升级到 Java 17 的好时机。Spring Boot 3.x/4.x、Spring Cloud 2022+ 都要求 Java 17 最低版本。
+
+> ⚠️ **注意**：Java 17 Premier Support 将于 **2026 年 9 月** 到期，建议新项目直接使用 Java 21 或 Java 25 LTS。
