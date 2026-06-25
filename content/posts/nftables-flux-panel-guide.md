@@ -1,6 +1,6 @@
 ---
 title: "nftables 常用命令速查 — Flux Panel 转发规则排查指南"
-date: 2025-06-24
+date: 2026-06-24
 draft: false
 categories: ["运维"]
 tags: ["nftables", "防火墙", "Linux", "Flux Panel", "流量转发", "运维"]

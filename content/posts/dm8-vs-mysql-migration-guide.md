@@ -1,6 +1,6 @@
 ---
 title: "达梦数据库 DM8 与 MySQL 差异全解析：迁移避坑指南"
-date: 2025-06-24
+date: 2026-06-24
 draft: false
 categories: ["数据库"]
 tags: ["达梦", "DM8", "MySQL", "数据库迁移", "信创", "国产化"]
