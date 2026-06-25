@@ -2,9 +2,6 @@
 title: "2025 年 Java Spring 面试题精选"
 date: 2025-05-01
 draft: false
-source: "https://juejin.cn/post/java-spring-interview-2025"
-source_author: "技术面试官"
-source_desc: "2025 年 Java Spring 面试题精选 - 掘金"
 categories: ["Java"]
 tags: ["Java", "Spring", "Spring Boot", "面试", "后端"]
 ---

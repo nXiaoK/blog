@@ -2,9 +2,6 @@
 title: "达梦数据库 DM8 与 MySQL 差异全解析：迁移避坑指南"
 date: 2025-06-24
 draft: false
-source: "https://github.com/Greenplumwine/sql-dialect-adapter"
-source_author: "Greenplumwine"
-source_desc: "SQL 方言转换工具 — MySQL ↔ 达梦 数据类型与语法映射"
 categories: ["数据库"]
 tags: ["达梦", "DM8", "MySQL", "数据库迁移", "信创", "国产化"]
 ---
@@ -341,9 +338,4 @@ CREATE DATABASE mydb CHARSET=1;
 - [ ] 测试分页查询是否兼容
 - [ ] 测试多行 INSERT、多表 UPDATE/DELETE 语法
 
-## 参考资料
 
-- [SQL 方言转换工具 sql-dialect-adapter](https://github.com/Greenplumwine/sql-dialect-adapter)
-- [MySQL → DM8 迁移工具 MySQL2DM](https://github.com/mcmartin666/MySQL2DM)
-- [DM → MySQL 迁移工具 DM2MySQL](https://github.com/Tumicc/DM2MySQL)
-- [达梦数据库官方文档](https://eco.dameng.com/document/)

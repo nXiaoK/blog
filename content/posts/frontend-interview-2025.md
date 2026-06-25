@@ -2,9 +2,6 @@
 title: "2025 前端面试题大全"
 date: 2025-06-25
 draft: false
-source: "https://juejin.cn/post/7451826126288715815"
-source_author: "前端面试宝典"
-source_desc: "2025 前端面试题大全 - 掘金"
 categories: ["前端"]
 tags: ["前端", "面试", "JavaScript", "Vue", "React", "2025"]
 ---

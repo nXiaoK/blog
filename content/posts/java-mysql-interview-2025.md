@@ -2,9 +2,6 @@
 title: "2025 Java MySQL 面试高频题汇总"
 date: 2025-06-25
 draft: false
-source: "https://juejin.cn/post/7498277142770712626"
-source_author: "Java面试宝典"
-source_desc: "2025年Java MySQL面试高频题汇总及详细解答"
 categories: ["面试"]
 tags: ["Java", "MySQL", "面试", "数据库", "2025"]
 ---
