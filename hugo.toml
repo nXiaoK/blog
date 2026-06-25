@@ -1,6 +1,6 @@
 baseURL = "https://blog.waihost.com/"
 languageCode = "zh-cn"
-title = "技术笔记"
+title = "吾爱主机"
 theme = "PaperMod"
 [pagination]
   pagerSize = 10
