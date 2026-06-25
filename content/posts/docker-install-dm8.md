@@ -19,10 +19,10 @@ tags: ["Docker", "达梦", "DM8", "数据库"]
 
 ## 2、下载达梦镜像
 
-达梦官方下载地址为：[eco.dameng.com/download/](http://eco.dameng.com/download/)，可能已经不提供 Docker 镜像下载。
+达梦官方下载地址为：[eco.dameng.com/download/](https://eco.dameng.com/download/)，可能已经不提供 Docker 镜像下载。
 
 所以请从笔者百度网盘下载：
-- 链接: [pan.baidu.com/s/1SsQK7mlJ…](https://pan.baidu.com/s/1SsQK7mlJ)
+- 链接: [pan.baidu.com/s/1SsQK7mlJ](https://pan.baidu.com/s/1SsQK7mlJjSlkTLFBZOFsKg)
 - 提取码: `d83h`
 - 下载文件：`dm8_20240715_x86_rh6_rq_single.tar.zip`
 
