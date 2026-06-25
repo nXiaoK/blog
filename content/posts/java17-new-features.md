@@ -1,6 +1,6 @@
 ---
 title: "Java 17 新特性详解：Record、Sealed Classes、Pattern Matching 与现代 Java"
-date: 2026-06-25
+date: 2026-06-25T14:30:00
 draft: false
 categories: ["Java"]
 tags: ["Java", "Java17", "Record", "Sealed", "Pattern Matching", "LTS"]

@@ -1,6 +1,6 @@
 ---
 title: "Linux 常用终端命令完全指南"
-date: 2026-06-25
+date: 2026-06-25T13:00:00
 categories: [运维]
 tags: [Linux, 命令行, 终端, Shell, 运维]
 ---

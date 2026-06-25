@@ -1,6 +1,6 @@
 ---
 title: "Java 8 新特性详解：Lambda、Stream、Optional 与函数式编程"
-date: 2026-06-25
+date: 2026-06-25T14:00:00
 draft: false
 categories: ["Java"]
 tags: ["Java", "Java8", "Lambda", "Stream", "函数式编程"]

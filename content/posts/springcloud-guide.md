@@ -1,6 +1,6 @@
 ---
 title: "Spring Cloud 微服务架构全解：注册发现、网关、熔断与实战"
-date: 2026-06-25
+date: 2026-06-25T18:00:00
 draft: false
 categories: ["Java"]
 tags: ["Java", "Spring Cloud", "微服务", "Nacos", "Gateway", "Sentinel"]

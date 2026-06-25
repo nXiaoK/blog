@@ -1,6 +1,6 @@
 ---
 title: "Docker 安装达梦 DM8"
-date: 2026-04-28
+date: 2026-04-28T10:00:00
 draft: false
 source: "https://juejin.cn/post/7498277142770712626"
 source_author: "六边形工程师"

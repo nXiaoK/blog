@@ -1,6 +1,6 @@
 ---
 title: "macOS Homebrew 完全指南：安装、配置与常用命令"
-date: 2026-06-25
+date: 2026-06-25T16:00:00
 draft: false
 categories: ["运维"]
 tags: ["macOS", "Homebrew", "brew", "包管理", "命令行"]

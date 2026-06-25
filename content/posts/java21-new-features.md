@@ -1,6 +1,6 @@
 ---
 title: "Java 21 新特性详解：虚拟线程、Pattern Matching Switch 与现代并发"
-date: 2026-06-25
+date: 2026-06-25T15:00:00
 draft: false
 categories: ["Java"]
 tags: ["Java", "Java21", "虚拟线程", "Virtual Threads", "LTS", "并发"]

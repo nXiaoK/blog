@@ -1,6 +1,6 @@
 ---
 title: "macOS 终端常用命令完全指南"
-date: 2026-06-25
+date: 2026-06-25T12:00:00
 categories: [运维]
 tags: [macOS, 终端, Terminal, 命令行, Homebrew]
 ---

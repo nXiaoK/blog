@@ -1,6 +1,6 @@
 ---
-title: "Spring Boot 3 从入门到实战：自动配置、Web 开发与生产部署"
-date: 2026-06-25
+title: "Spring Boot 4 从入门到实战：自动配置、Web 开发与生产部署"
+date: 2026-06-25T17:30:00
 draft: false
 categories: ["Java"]
 tags: ["Java", "Spring Boot", "Spring", "Web开发", "微服务"]

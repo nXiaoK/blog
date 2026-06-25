@@ -1,6 +1,6 @@
 ---
 title: "2025 Java MySQL 面试高频题汇总"
-date: 2026-06-25
+date: 2026-06-25T10:05:00
 draft: false
 categories: ["面试"]
 tags: ["Java", "MySQL", "面试", "数据库", "2025"]

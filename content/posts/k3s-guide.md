@@ -1,6 +1,6 @@
 ---
 title: "K3s 轻量级 Kubernetes 实战：安装、配置与生产部署"
-date: 2026-06-25
+date: 2026-06-25T17:00:00
 draft: false
 categories: ["云原生"]
 tags: ["K3s", "Kubernetes", "轻量级", "边缘计算", "IoT", "云原生"]

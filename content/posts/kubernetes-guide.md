@@ -1,6 +1,6 @@
 ---
 title: "Kubernetes (K8s) 完全指南：架构、核心概念与实战命令"
-date: 2026-06-25
+date: 2026-06-25T16:30:00
 draft: false
 categories: ["云原生"]
 tags: ["Kubernetes", "K8s", "容器编排", "云原生", "DevOps"]
