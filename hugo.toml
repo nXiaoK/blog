@@ -55,5 +55,5 @@ theme = "PaperMod"
   [markup.highlight]
     codeFences = true
     guessSyntax = true
-    lineNos = true
-    style = "monokai"
+    noClasses = false
+    style = "github-dark"
