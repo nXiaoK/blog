@@ -377,7 +377,7 @@ git submodule update --init --recursive
     tool = vscode
     
 [difftool "vscode"]
-    cmd = code --wait --diff $ LOCAL $ REMOTE
+    cmd = code --wait --diff &#36;LOCAL &#36;REMOTE
 ```
 
 ### .gitignore 模板
