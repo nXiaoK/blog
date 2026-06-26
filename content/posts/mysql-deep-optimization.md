@@ -329,9 +329,9 @@ orders_3  -- user_id % 4 = 3
 
 -- ShardingSphere 配置
 spring.shardingsphere.datasource.names=ds0,ds1
-spring.shardingsphere.sharding.tables.orders.actual-data-nodes=ds$->{0..1}.orders_$->{0..3}
+spring.shardingsphere.sharding.tables.orders.actual-data-nodes=ds$ ->{0..1}.orders_$ ->{0..3}
 spring.shardingsphere.sharding.tables.orders.table-strategy.inline.sharding-column=user_id
-spring.shardingsphere.sharding.tables.orders.table-strategy.inline.algorithm-expression=orders_$->{user_id % 4}
+spring.shardingsphere.sharding.tables.orders.table-strategy.inline.algorithm-expression=orders_$ ->{user_id % 4}
 ```
 
 ### 4.3 缓存策略
