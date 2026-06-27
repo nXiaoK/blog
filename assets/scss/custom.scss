@@ -1,0 +1,117 @@
+/* Blog-specific enhancements for Stack cover images */
+:root {
+  --article-image-height: 220px;
+}
+
+@include respond(md) {
+  :root {
+    --article-image-height: 280px;
+  }
+}
+
+@include respond(xl) {
+  :root {
+    --article-image-height: 320px;
+  }
+}
+
+.article-list article.has-image {
+  .article-image {
+    overflow: hidden;
+    background: linear-gradient(135deg, rgba(15,23,42,.08), rgba(99,102,241,.10));
+
+    img {
+      transition: transform .45s ease, filter .35s ease;
+    }
+  }
+
+  &:hover .article-image img {
+    transform: scale(1.03);
+    filter: saturate(1.06);
+  }
+
+  .article-details {
+    padding-top: calc(var(--card-padding) - 4px);
+  }
+}
+
+.article-page .main-article {
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(15,23,42,.08), 0 2px 8px rgba(15,23,42,.06);
+
+  .enhanced-cover {
+    position: relative;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: clamp(260px, 40vw, 480px) !important;
+      object-fit: cover;
+      display: block;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(180deg, rgba(2,6,23,.05) 0%, rgba(2,6,23,.18) 40%, rgba(2,6,23,.64) 100%),
+        radial-gradient(circle at 85% 18%, rgba(255,255,255,.20), transparent 20%);
+      pointer-events: none;
+    }
+
+    .cover-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-start;
+      padding: clamp(18px, 3vw, 34px);
+      color: #fff;
+    }
+
+    .cover-chip {
+      display: inline-flex;
+      align-items: center;
+      margin-bottom: 14px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 1.3rem;
+      font-weight: 600;
+      letter-spacing: .02em;
+      color: #fff;
+      background: rgba(255,255,255,.14);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255,255,255,.18);
+      box-shadow: 0 8px 20px rgba(0,0,0,.12);
+    }
+
+    .cover-title {
+      margin: 0;
+      color: #fff;
+      font-size: clamp(2.8rem, 4vw, 4.6rem);
+      line-height: 1.14;
+      text-shadow: 0 2px 14px rgba(0,0,0,.25);
+      width: 92%;
+      max-width: 980px;
+    }
+
+    .cover-description {
+      margin: 12px 0 0;
+      max-width: 860px;
+      font-size: 1.55rem;
+      color: rgba(255,255,255,.92);
+      text-shadow: 0 1px 10px rgba(0,0,0,.22);
+    }
+  }
+
+  .article-header .article-details {
+    padding-top: 24px;
+  }
+}
+
+.article-list article .article-title {
+  line-height: 1.28;
+}

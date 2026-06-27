@@ -1,0 +1,34 @@
+{{- $IsList := .IsList -}}
+{{- $Page := .Page -}}
+<header class="article-header enhanced-cover-header">
+    {{- $image := partial "helper/image" (dict "Image" $Page.Params.image "Resources" $Page.Resources "Context" $Page) -}}
+    {{ if $image }}
+    <div class="article-image enhanced-cover">
+        <a href="{{ $Page.RelPermalink }}">
+            {{ partial "helper/responsive-image" (dict
+                "Resource" $image.Resource
+                "Widths" (cond $Page.Site.Params.ImageProcessing.Content.Enabled $Page.Site.Params.ImageProcessing.Content.Widths nil)
+                "Attributes" (dict
+                    "src" $image.Permalink
+                    "width" $image.Width
+                    "height" $image.Height
+                    "alt" (printf "Featured image of post %s" $Page.Title)
+                    "loading" "lazy"
+                    "sizes" "(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px"
+                )
+            ) }}
+            {{ if not $IsList }}
+            <div class="cover-overlay">
+                {{ with index $Page.Params.categories 0 }}<span class="cover-chip">{{ . }}</span>{{ end }}
+                <div class="cover-text">
+                    <h1 class="cover-title">{{ $Page.Title }}</h1>
+                    {{ with $Page.Description }}<p class="cover-description">{{ . }}</p>{{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </a>
+    </div>
+    {{ end }}
+
+    {{ partial "article/components/details" (dict "Page" $Page "IsList" $IsList) }}
+</header>
