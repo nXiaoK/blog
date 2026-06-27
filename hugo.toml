@@ -1,59 +1,138 @@
 baseURL = "https://blog.waihost.com/"
 languageCode = "zh-cn"
+defaultContentLanguage = "zh"
 title = "吾爱主机"
-theme = "PaperMod"
+theme = "hugo-theme-stack"
+
+# Stack 主题分页用 [pagination].pagerSize
 [pagination]
   pagerSize = 10
 
+# 搜索功能：搜索页自身输出 JSON 供前端检索
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+
 [params]
-  env = "production"
+  mainSections = ["posts"]
+  rssFullContent = true
   description = "技术文档与学习笔记"
-  author = "name"
-  defaultTheme = "auto"
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowToc = true
-  TocOpen = false
 
-  [params.homeInfoParams]
-    Title = "👋 欢迎来到我的技术博客"
-    Content = "这里记录技术文档、学习笔记和值得收藏的好文。"
+  [params.footer]
+    since = 2024
+    customText = ""
 
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/"
+  [params.dateFormat]
+    published = "2006-01-02"
+    lastUpdated = "2006-01-02"
 
+  # 左侧边栏（站点信息）。不配置 avatar 时仅显示 emoji + 标题
+  [params.sidebar]
+    compact = false
+    emoji = "💻"
+    subtitle = "技术文档、学习笔记和值得收藏的好文"
+
+  [params.article]
+    headingAnchor = true
+    math = false
+    toc = true
+    readingTime = true
+    [params.article.license]
+      enabled = true
+      default = "本文采用 CC BY-NC-SA 4.0 许可协议"
+
+  # 右侧/首页小部件
+  [params.widgets]
+    homepage = [
+      { type = "search" },
+      { type = "categories", params = { limit = 10 } },
+      { type = "tag-cloud", params = { limit = 20 } },
+    ]
+    page = [
+      { type = "toc" },
+    ]
+
+  [params.colorScheme]
+    toggle = true
+    default = "auto"
+
+  [params.imageProcessing]
+    [params.imageProcessing.cover]
+      enabled = true
+    [params.imageProcessing.content]
+      enabled = true
+
+  # 关闭评论（未配置 Disqus 等）
+  [params.comments]
+    enabled = false
+
+# 主菜单
 [menu]
   [[menu.main]]
-    identifier = "posts"
-    name = "文章"
-    url = "/posts/"
+    identifier = "home"
+    name = "首页"
+    url = "/"
     weight = 1
+    [menu.main.params]
+      icon = "home"
   [[menu.main]]
-    identifier = "tags"
-    name = "标签"
-    url = "/tags/"
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
     weight = 2
+    [menu.main.params]
+      icon = "archives"
   [[menu.main]]
     identifier = "categories"
     name = "分类"
     url = "/categories/"
     weight = 3
+    [menu.main.params]
+      icon = "categories"
   [[menu.main]]
-    identifier = "archives"
-    name = "归档"
-    url = "/archives/"
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
     weight = 4
+    [menu.main.params]
+      icon = "tag"
 
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
+  # 社交链接（侧边栏底部）
+  [[menu.social]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/nXiaoK"
+    [menu.social.params]
+      icon = "brand-github"
 
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      # 允许文章中的 HTML（如自定义标记）
+      unsafe = true
   [markup.highlight]
     codeFences = true
     guessSyntax = true
+    # Stack 自带代码主题，noClasses=false 让其随明暗模式切换
     noClasses = false
-    style = "github-dark"
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+
+# Stack 推荐的分类法配置
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+# 让站点的相关文章功能生效
+[related]
+  includeNewer = true
+  threshold = 60
+  toLower = false
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "categories"
+    weight = 200
