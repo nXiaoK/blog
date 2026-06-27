@@ -4,6 +4,7 @@ date: 2025-06-04T10:22:04+08:00
 draft: false
 categories: ["存储运维"]
 tags: ["bcache", "IO优化", "性能测试", "fio"]
+image: "/images/covers/bcache-io-benchmark-test.svg"
 ---
 
 在配置了 `bcache` 之后，测试 IO 速度是否有效提升是一个很好的步骤。这通常涉及到对比缓存生效和未生效（或直接访问后端存储）时的性能差异。由于 `bcache` 是一个透明的缓存层，精确地“关闭”缓存来做对比测试比较复杂，但我们可以通过特定测试方法来观察缓存的效果。

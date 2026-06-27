@@ -4,6 +4,7 @@ date: 2023-12-17T18:10:00+08:00
 draft: false
 categories: ["容器"]
 tags: ["Docker", "Docker Compose", "Debian"]
+image: "/images/covers/debian12-install-docker-compose.svg"
 ---
 
 在 Debian 12 上安装最新版的 Docker 和 Docker Compose 可以按照以下步骤进行。以下指南将带您通过安装 Docker Engine、配置 Docker 官方仓库以及安装 Docker Compose 的最新版本。

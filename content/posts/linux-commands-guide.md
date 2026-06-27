@@ -3,6 +3,7 @@ title: "Linux 常用终端命令完全指南"
 date: 2026-06-25T13:00:00
 categories: [运维]
 tags: [Linux, 命令行, 终端, Shell, 运维]
+image: "/images/covers/linux-commands-guide.svg"
 ---
 
 Linux 终端命令是每一位开发者和运维工程师的必备技能。本文整理了日常工作中最常用的 12 大类命令，配合丰富的实战示例，帮助你快速上手和查阅。

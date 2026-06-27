@@ -4,6 +4,7 @@ date: 2026-06-26T15:30:00
 draft: false
 categories: ["运维"]
 tags: ["Caddy", "Web服务器", "HTTPS", "反向代理", "运维"]
+image: "/images/covers/caddy-guide.svg"
 ---
 
 ## Caddy 简介

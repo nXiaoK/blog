@@ -7,6 +7,7 @@ source_author: "沉默王二"
 source_desc: "Java线程池是Java多线程编程的一个重要部分，通过图文方式彻底弄懂线程池的工作原理"
 categories: ["Java"]
 tags: ["Java", "并发编程", "线程池", "ThreadPoolExecutor", "多线程"]
+image: "/images/covers/java-thread-pool-guide.svg"
 ---
 
 ## 什么是线程池

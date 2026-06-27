@@ -4,6 +4,7 @@ date: 2026-06-25T14:30:00
 draft: false
 categories: ["Java"]
 tags: ["Java", "Java17", "Record", "Sealed", "Pattern Matching", "LTS"]
+image: "/images/covers/java17-new-features.svg"
 ---
 
 ## 前言

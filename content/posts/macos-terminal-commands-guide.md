@@ -3,6 +3,7 @@ title: "macOS 终端常用命令完全指南"
 date: 2026-06-25T12:00:00
 categories: [运维]
 tags: [macOS, 终端, Terminal, 命令行, Homebrew]
+image: "/images/covers/macos-terminal-commands-guide.svg"
 ---
 
 macOS 自带的终端（Terminal）是一个功能强大的工具，掌握常用的终端命令能极大提升工作效率。本文整理了 macOS 环境下最常用的终端命令，涵盖文件管理、系统信息、网络调试、磁盘操作、Homebrew 包管理等方方面面，适合日常开发和运维参考。

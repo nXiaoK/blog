@@ -7,6 +7,7 @@ source_author: "六边形工程师"
 source_desc: "Docker 安装达梦 DM8 - 掘金"
 categories: ["数据库"]
 tags: ["Docker", "达梦", "DM8", "数据库"]
+image: "/images/covers/docker-install-dm8.svg"
 ---
 
 ## 背景

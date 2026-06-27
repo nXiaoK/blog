@@ -4,6 +4,7 @@ date: 2025-03-12T11:26:34+08:00
 draft: false
 categories: ["Linux"]
 tags: ["cron", "定时任务", "crontab"]
+image: "/images/covers/cron-expression-guide.svg"
 ---
 
 正确编写cron表达式需要遵循特定的结构和规则。以下是分步指南：

@@ -4,6 +4,7 @@ date: 2025-03-11T18:13:48+08:00
 draft: false
 categories: ["运维"]
 tags: ["SSL", "Nginx", "反向代理", "HTTPS"]
+image: "/images/covers/free-ssl-nginx-reverse-proxy.svg"
 ---
 
 ### **一、申请免费SSL证书**

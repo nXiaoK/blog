@@ -4,6 +4,7 @@ date: 2026-06-25T18:00:00
 draft: false
 categories: ["Java"]
 tags: ["Java", "Spring Cloud", "微服务", "Nacos", "Gateway", "Sentinel"]
+image: "/images/covers/springcloud-guide.svg"
 ---
 
 ## 前言

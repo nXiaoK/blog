@@ -4,6 +4,7 @@ date: 2025-06-23T09:15:42+08:00
 draft: false
 categories: ["开发工具"]
 tags: ["SVN", "版本控制", "服务器搭建"]
+image: "/images/covers/svn-server-setup.svg"
 ---
 
 搭建一个 SVN 仓库主要涉及两个部分：**安装 SVN 服务器软件** 和 **创建仓库本身**。以下是详细的步骤，适用于 Windows 和 Linux 系统：

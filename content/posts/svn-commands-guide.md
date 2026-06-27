@@ -4,6 +4,7 @@ date: 2026-06-26T16:30:00
 draft: false
 categories: ["开发工具"]
 tags: ["SVN", "版本控制", "Subversion", "开发工具"]
+image: "/images/covers/svn-commands-guide.svg"
 ---
 
 ## SVN 简介

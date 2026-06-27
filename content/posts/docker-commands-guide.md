@@ -4,6 +4,7 @@ date: 2026-06-25T15:30:00
 draft: false
 categories: ["运维"]
 tags: ["Docker", "容器", "DevOps", "运维", "Docker Compose"]
+image: "/images/covers/docker-commands-guide.svg"
 ---
 
 ## 前言

@@ -4,6 +4,7 @@ date: 2026-06-25T19:30:00
 draft: false
 categories: ["Python"]
 tags: ["Python", "DrissionPage", "爬虫", "网页自动化", "Selenium"]
+image: "/images/covers/drissionpage-guide.svg"
 ---
 
 ## 前言

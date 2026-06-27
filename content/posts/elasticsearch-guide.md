@@ -4,6 +4,7 @@ date: 2026-06-25T18:30:00
 draft: false
 categories: ["搜索引擎"]
 tags: ["Elasticsearch", "ELK", "搜索引擎", "全文检索", "Spring Boot"]
+image: "/images/covers/elasticsearch-guide.svg"
 ---
 
 ## 前言

@@ -4,6 +4,7 @@ date: 2025-06-04T10:12:12+08:00
 draft: false
 categories: ["存储运维"]
 tags: ["bcache", "SSD缓存", "RAID", "IO优化"]
+image: "/images/covers/bcache-ssd-hdd-cache.svg"
 ---
 
 ---

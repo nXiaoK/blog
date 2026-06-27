@@ -4,6 +4,7 @@ date: 2026-06-25T10:05:00
 draft: false
 categories: ["面试"]
 tags: ["Java", "MySQL", "面试", "数据库", "2025"]
+image: "/images/covers/java-mysql-interview-2025.svg"
 ---
 
 ## 前言

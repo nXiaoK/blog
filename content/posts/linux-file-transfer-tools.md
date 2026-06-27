@@ -4,6 +4,7 @@ date: 2025-04-27T15:02:24+08:00
 draft: false
 categories: ["Linux"]
 tags: ["scp", "rsync", "sftp", "文件传输"]
+image: "/images/covers/linux-file-transfer-tools.svg"
 ---
 
 以下是一篇详细讲解 Linux 文件传输方式的教程，涵盖主流工具及参数解析：

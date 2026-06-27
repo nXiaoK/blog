@@ -4,6 +4,7 @@ date: 2024-03-04T12:47:00+08:00
 draft: false
 categories: ["存储运维"]
 tags: ["GPT", "磁盘挂载", "分区", "Linux"]
+image: "/images/covers/linux-gpt-mount-disk.svg"
 ---
 
 ---

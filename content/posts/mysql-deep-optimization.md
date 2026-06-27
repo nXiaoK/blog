@@ -4,6 +4,7 @@ date: 2026-06-26T17:00:00
 draft: false
 categories: ["数据库"]
 tags: ["MySQL", "性能优化", "索引优化", "SQL调优", "数据库"]
+image: "/images/covers/mysql-deep-optimization.svg"
 ---
 
 ## 前言

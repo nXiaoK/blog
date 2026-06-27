@@ -4,6 +4,7 @@ date: 2026-06-25T16:30:00
 draft: false
 categories: ["云原生"]
 tags: ["Kubernetes", "K8s", "容器编排", "云原生", "DevOps"]
+image: "/images/covers/kubernetes-guide.svg"
 ---
 
 ## 前言

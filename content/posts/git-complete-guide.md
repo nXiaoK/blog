@@ -4,6 +4,7 @@ date: 2026-06-26T16:00:00
 draft: false
 categories: ["开发工具"]
 tags: ["Git", "版本控制", "代码管理", "开发工具"]
+image: "/images/covers/git-complete-guide.svg"
 ---
 
 ## Git 简介

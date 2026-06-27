@@ -4,6 +4,7 @@ date: 2026-06-25T16:00:00
 draft: false
 categories: ["运维"]
 tags: ["macOS", "Homebrew", "brew", "包管理", "命令行"]
+image: "/images/covers/macos-homebrew-guide.svg"
 ---
 
 ## 前言

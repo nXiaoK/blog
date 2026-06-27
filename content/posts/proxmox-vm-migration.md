@@ -4,6 +4,7 @@ date: 2025-04-27T14:22:14+08:00
 draft: false
 categories: ["虚拟化"]
 tags: ["Proxmox", "PVE", "虚拟机迁移", "备份恢复"]
+image: "/images/covers/proxmox-vm-migration.svg"
 ---
 
 以下是详细教程，涵盖通过 **备份与恢复** 在 Proxmox VE（PVE）中迁移虚拟机的完整流程，包括 `scp` 和 `rsync` 传输备份的详细步骤：

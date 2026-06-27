@@ -4,6 +4,7 @@ date: 2026-06-26T15:00:00
 draft: false
 categories: ["运维"]
 tags: ["Nginx", "Web服务器", "反向代理", "负载均衡", "运维"]
+image: "/images/covers/nginx-complete-guide.svg"
 ---
 
 ## Nginx 简介

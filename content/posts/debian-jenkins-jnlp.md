@@ -4,6 +4,7 @@ date: 2024-02-27T16:20:00+08:00
 draft: false
 categories: ["开发工具"]
 tags: ["Jenkins", "JNLP", "Debian", "CI"]
+image: "/images/covers/debian-jenkins-jnlp.svg"
 ---
 
 # debian12执行命令

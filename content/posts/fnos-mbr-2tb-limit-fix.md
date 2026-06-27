@@ -4,6 +4,7 @@ date: 2025-08-24T15:47:14+08:00
 draft: false
 categories: ["存储运维"]
 tags: ["FnOS", "磁盘分区", "MBR", "GPT", "NAS"]
+image: "/images/covers/fnos-mbr-2tb-limit-fix.svg"
 ---
 
 # 解决大磁盘分区报错：

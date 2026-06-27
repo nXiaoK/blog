@@ -4,6 +4,7 @@ date: 2026-06-25T17:00:00
 draft: false
 categories: ["云原生"]
 tags: ["K3s", "Kubernetes", "轻量级", "边缘计算", "IoT", "云原生"]
+image: "/images/covers/k3s-guide.svg"
 ---
 
 ## 前言

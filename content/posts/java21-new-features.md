@@ -4,6 +4,7 @@ date: 2026-06-25T15:00:00
 draft: false
 categories: ["Java"]
 tags: ["Java", "Java21", "虚拟线程", "Virtual Threads", "LTS", "并发"]
+image: "/images/covers/java21-new-features.svg"
 ---
 
 ## 前言

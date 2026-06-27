@@ -4,6 +4,7 @@ date: 2026-06-25T17:30:00
 draft: false
 categories: ["Java"]
 tags: ["Java", "Spring Boot", "Spring", "Web开发", "微服务"]
+image: "/images/covers/springboot-guide.svg"
 ---
 
 ## 前言

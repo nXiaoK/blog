@@ -4,6 +4,7 @@ date: 2024-03-04T12:41:00+08:00
 draft: false
 categories: ["存储运维"]
 tags: ["GlusterFS", "Debian", "分布式存储"]
+image: "/images/covers/debian-glusterfs-storage-pool.svg"
 ---
 
 **GlusterFS** 是比较常见的分布式文件系统方案，可以把多台服务器的硬盘资源组合成单一的逻辑卷，供客户端挂载并使用。它的优点是配置相对简单，而且只要你有 root 权限并能对 VPS 做一些端口和防火墙设置，就基本可以实现“合并”空间的效果。

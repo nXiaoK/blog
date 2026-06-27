@@ -4,6 +4,7 @@ date: 2025-03-20T16:53:38+08:00
 draft: false
 categories: ["存储运维"]
 tags: ["IOPS", "硬盘测试", "性能评估", "fio"]
+image: "/images/covers/disk-iops-benchmark.svg"
 ---
 
 在 Debian 12 中测试硬盘的 **IOPS（每秒输入输出操作次数）**，推荐使用专业的磁盘性能测试工具 `fio`（Flexible I/O Tester）。以下是详细操作步骤：

@@ -4,6 +4,7 @@ date: 2025-04-27T14:55:08+08:00
 draft: false
 categories: ["虚拟化"]
 tags: ["Proxmox", "PVE", "Cloud-Init", "Docker"]
+image: "/images/covers/proxmox-cloudinit-template-docker.svg"
 ---
 
 ---

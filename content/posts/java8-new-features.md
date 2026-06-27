@@ -4,6 +4,7 @@ date: 2026-06-25T14:00:00
 draft: false
 categories: ["Java"]
 tags: ["Java", "Java8", "Lambda", "Stream", "函数式编程"]
+image: "/images/covers/java8-new-features.svg"
 ---
 
 ## 前言

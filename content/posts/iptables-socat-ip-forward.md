@@ -4,6 +4,7 @@ date: 2024-03-08T19:49:00+08:00
 draft: false
 categories: ["网络"]
 tags: ["iptables", "socat", "端口转发"]
+image: "/images/covers/iptables-socat-ip-forward.svg"
 ---
 
 ### 方法 1：使用 iptables（推荐）

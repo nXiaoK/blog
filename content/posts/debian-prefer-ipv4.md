@@ -4,6 +4,7 @@ date: 2024-03-09T19:05:00+08:00
 draft: false
 categories: ["Linux"]
 tags: ["Debian", "IPv4", "网络配置"]
+image: "/images/covers/debian-prefer-ipv4.svg"
 ---
 
 在 Debian 12 中设置 IPv4 优先，可以通过调整 `gai.conf`（GetAddrInfo 配置）来修改地址解析的优先级。以下是具体步骤：

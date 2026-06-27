@@ -4,6 +4,7 @@ date: 2026-06-24T11:00:00
 draft: false
 categories: ["数据库"]
 tags: ["达梦", "DM8", "MySQL", "数据库迁移", "信创", "国产化"]
+image: "/images/covers/dm8-vs-mysql-migration-guide.svg"
 ---
 
 ## 前言

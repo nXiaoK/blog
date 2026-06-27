@@ -4,6 +4,7 @@ date: 2025-05-04T14:05:11+08:00
 draft: false
 categories: ["虚拟化"]
 tags: ["Proxmox", "PVE", "网络", "IPv6", "NAT"]
+image: "/images/covers/proxmox-nat-ipv4-ipv6.svg"
 ---
 
 ---

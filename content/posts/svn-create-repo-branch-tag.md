@@ -4,6 +4,7 @@ date: 2025-06-23T09:17:53+08:00
 draft: false
 categories: ["开发工具"]
 tags: ["SVN", "版本控制", "分支管理"]
+image: "/images/covers/svn-create-repo-branch-tag.svg"
 ---
 
 # 完整指南：在 SVN 中创建新仓库并添加分支与标签

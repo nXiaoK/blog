@@ -4,6 +4,7 @@ date: 2026-06-25T19:00:00
 draft: false
 categories: ["Python"]
 tags: ["Python", "入门", "教程", "编程", "零基础"]
+image: "/images/covers/python-beginner-guide.svg"
 ---
 
 ## 前言

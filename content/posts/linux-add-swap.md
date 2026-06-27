@@ -4,6 +4,7 @@ date: 2025-03-28T15:27:09+08:00
 draft: false
 categories: ["Linux"]
 tags: ["Swap", "内存管理", "Linux运维"]
+image: "/images/covers/linux-add-swap.svg"
 ---
 
 在 Linux 中添加 swap 空间通常需要以下步骤：

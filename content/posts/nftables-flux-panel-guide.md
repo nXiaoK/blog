@@ -4,6 +4,7 @@ date: 2026-06-24T10:00:00
 draft: false
 categories: ["运维"]
 tags: ["nftables", "防火墙", "Linux", "Flux Panel", "流量转发", "运维"]
+image: "/images/covers/nftables-flux-panel-guide.svg"
 ---
 
 ## 前言

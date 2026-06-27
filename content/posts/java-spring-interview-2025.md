@@ -4,6 +4,7 @@ date: 2026-05-01T14:00:00
 draft: false
 categories: ["Java"]
 tags: ["Java", "Spring", "Spring Boot", "面试", "后端"]
+image: "/images/covers/java-spring-interview-2025.svg"
 ---
 
 ## 概述
