@@ -121,6 +121,8 @@ ws.example.com {
 
 ### 6. 限流配置
 
+> ⚠️ 注意：`rate_limit` 不是 Caddy 标准内置指令，需要第三方插件 [caddy-ratelimit](https://github.com/mholt/caddy-ratelimit)（官方标注为 experimental）。使用前需用 xcaddy 编译进自定义二进制：`xcaddy build --with github.com/mholt/caddy-ratelimit`，否则会报 `unrecognized directive: rate_limit`。
+
 ```
 api.example.com {
     rate_limit {
@@ -139,8 +141,8 @@ api.example.com {
 
 ```
 admin.example.com {
-    # 基本认证
-    basicauth * {
+    # 基本认证（Caddy 2.7+ 指令名为 basic_auth，旧名 basicauth 已废弃）
+    basic_auth * {
         admin $2a$14$Zkx19XLiW6VYouLRR8Kj.OXQBKlejFyYi6CZjfCMjh8YBPL5YE5LG
     }
     

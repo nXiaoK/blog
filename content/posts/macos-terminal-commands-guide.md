@@ -64,7 +64,7 @@ cp -p file.txt backup.txt
 # 覆盖前确认
 cp -i file.txt backup.txt
 
-# 复制时显示进度（macOS 特有）
+# 复制时显示被复制的文件名（verbose，Linux/macOS 通用）
 cp -v file.txt backup.txt
 ```
 
@@ -315,11 +315,11 @@ ps aux
 # 查看当前用户的进程
 ps -x
 
-# 按 CPU 使用率排序
-ps aux --sort=-%cpu | head -20
+# 按 CPU 使用率排序（macOS 的 BSD ps 用 -r，无 GNU 的 --sort 选项）
+ps aux -r | head -20
 
-# 按内存使用率排序
-ps aux --sort=-%mem | head -20
+# 按内存使用率排序（BSD ps 用 -m）
+ps aux -m | head -20
 
 # 查找特定进程
 ps aux | grep -i chrome
@@ -361,10 +361,10 @@ kill -9 12345
 # 根据进程名终止
 killall Safari
 
-# 终止所有同名进程（不区分大小写）
-killall -i "Google Chrome"
+# 不区分大小写匹配进程名（BSD killall 用大写 -I）
+killall -I "google chrome"
 
-# 向所有同名进程发送信号
+# 把参数作为正则表达式匹配进程名
 killall -m "node"
 ```
 
@@ -629,8 +629,8 @@ du -sh ~/Documents
 # 查看各子目录大小并排序
 du -sh ~/Documents/* | sort -rh | head -10
 
-# 排除特定目录
-du -sh --exclude="node_modules" ~/Projects
+# 排除特定目录（macOS 的 BSD du 用 -I mask，无 GNU 的 --exclude）
+du -sh -I node_modules ~/Projects
 
 # 查看 inode 使用情况
 df -i

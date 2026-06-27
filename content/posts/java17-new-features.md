@@ -120,7 +120,7 @@ public sealed interface Expression
 
 public record Number(double value) implements Expression {}
 public record Add(Expression left, Expression right) implements Expression {}
-public record Multiply(Expression left, Expression right) instanceof Expression {}
+public record Multiply(Expression left, Expression right) implements Expression {}
 public record Negate(Expression operand) implements Expression {}
 ```
 
@@ -401,8 +401,9 @@ java -XX:+UseShenandoahGC -Xmx4g MyApp
 # 1. 编译检查
 javac --release 17 YourClass.java
 
-# 2. 运行时检查
-java --illegal-access=deny -jar app.jar
+# 2. 检查对 JDK 内部 API 的非法访问（如有反射访问内部 API，运行时会报警告或异常）
+#    注意：--illegal-access 选项自 JDK 17 起已失效（JEP 403 强封装），改用下列方式按需开放
+java --add-opens java.base/java.lang=ALL-UNNAMED -jar app.jar
 
 # 3. 依赖检查
 # Spring Boot 3.x 需要 Java 17

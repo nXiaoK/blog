@@ -211,7 +211,8 @@ server {
 
 ```nginx
 server {
-    listen 443 ssl http2;
+    listen 443 ssl;
+    http2 on;
     server_name secure.example.com;
     
     # SSL 证书
@@ -290,7 +291,6 @@ server {
 net.core.somaxconn = 65535
 net.ipv4.tcp_max_tw_buckets = 65535
 net.ipv4.ip_local_port_range = 1024 65535
-net.ipv4.tcp_tw_recycle = 1
 net.ipv4.tcp_tw_reuse = 1
 net.ipv4.tcp_fin_timeout = 30
 net.ipv4.tcp_keepalive_time = 1200

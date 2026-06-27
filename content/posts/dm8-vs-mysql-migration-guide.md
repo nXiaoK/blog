@@ -58,7 +58,7 @@ tags: ["达梦", "DM8", "MySQL", "数据库迁移", "信创", "国产化"]
 | `DATE` | `DATE` | MySQL 只存日期，DM 的 DATE **包含时间** |
 | `DATETIME` | `DATE` / `TIMESTAMP` | DM 的 DATE 就带时间 |
 | `TIMESTAMP` | `TIMESTAMP` | |
-| `TIME` | `TIME` | DM 不支持纯 TIME 类型 |
+| `TIME` | `TIME` | DM 支持 TIME 类型，可直接映射 |
 | `YEAR` | `CHAR(4)` | DM 无 YEAR 类型 |
 
 ### 2.4 其他类型
@@ -288,7 +288,7 @@ spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
 # DM8
 spring.datasource.driver-class-name=dm.jdbc.driver.DmDriver
 spring.datasource.url=jdbc:dm://localhost:5236
-spring.jpa.database-platform=org.hibernate.dialect.DmDialect
+spring.jpa.database-platform=dm.hibernate.dialect.DmDialect
 ```
 
 ### 7.3 指定 Schema
@@ -301,12 +301,11 @@ jdbc:dm://localhost:5236?schema=MY_SCHEMA
 
 ## 8. 建库注意事项
 
-创建 DM8 数据库时务必选择 **UTF-8 字符集**：
+DM8 一个实例即对应一个数据库，**字符集在实例初始化（`dminit`）阶段确定，之后不可更改**，没有 MySQL 那样的 `CREATE DATABASE ... CHARSET=` 语句。务必在初始化时就选择 UTF-8：
 
-```sql
--- 创建数据库时指定字符集
-CREATE DATABASE mydb CHARSET=1;
--- CHARSET=1 表示 UTF-8
+```bash
+# 初始化实例时指定字符集（CHARSET：0=GB18030，1=UTF-8，2=EUC-KR）
+dminit PATH=/dm/data DB_NAME=mydb INSTANCE_NAME=mydb CHARSET=1 PAGE_SIZE=16
 ```
 
 如果字符集选错，中文数据会出现乱码，且修改成本很高。

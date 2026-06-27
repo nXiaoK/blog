@@ -95,8 +95,8 @@ svn add src/
 # 递归添加所有新文件
 svn add --force .
 
-# 添加但不提交
-svn add --no-commit file.txt
+# 添加文件到版本控制（仅调度，不会自动提交，需后续 svn commit）
+svn add file.txt
 ```
 
 ### 5. 提交更改
@@ -270,7 +270,7 @@ svn status
 ### 2. 解决冲突
 
 ```bash
-# 方式1：接受服务器版本
+# 方式1：接受当前工作副本内容（手工解决冲突后常用）
 svn resolve --accept working file.txt
 
 # 方式2：接受本地版本
@@ -318,7 +318,7 @@ svn propset svn:ignore "*.log" .
 svn propset svn:ignore -F .svnignore .
 
 # 递归设置
-svn propset svn:global-ignore "*.o *.a" .
+svn propset svn:global-ignores "*.o *.a" .
 
 # 查看忽略设置
 svn propget svn:ignore .

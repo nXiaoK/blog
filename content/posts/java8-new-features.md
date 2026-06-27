@@ -313,10 +313,12 @@ if (opt.isPresent()) {
 
 // ifPresent - 值存在时执行
 opt.ifPresent(name -> System.out.println(name));
-opt.ifPresentOrElse(
-    name -> System.out.println("Name: " + name),
-    () -> System.out.println("Name is null")
-);
+// 注意：ifPresentOrElse 是 Java 9 新增方法，Java 8 不可用
+// Java 9+ 写法：
+// opt.ifPresentOrElse(
+//     name -> System.out.println("Name: " + name),
+//     () -> System.out.println("Name is null")
+// );
 
 // orElse - 提供默认值
 String name = opt.orElse("Unknown");

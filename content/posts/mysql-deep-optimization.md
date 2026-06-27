@@ -469,8 +469,8 @@ apt install percona-toolkit
 # 分析慢查询
 pt-query-digest /var/log/mysql/slow.log
 
-# 查看表结构问题
-pt-schema-review --host=localhost --user=root --password=xxx
+# 检查重复/冗余索引
+pt-duplicate-key-checker --host=localhost --user=root --password=xxx
 
 # 查看索引使用情况
 pt-index-usage --host=localhost --user=root --password=xxx /var/log/mysql/slow.log

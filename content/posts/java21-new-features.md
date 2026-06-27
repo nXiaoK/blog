@@ -275,14 +275,12 @@ switch (obj) {
     default -> {}
 }
 
-// 在 lambda 中使用
-list.stream()
-    .map((_, _) -> computeValue())  // 两个参数都不需要
-    .toList();
+// 在 lambda 中使用（忽略不需要的参数）
+map.forEach((key, _) -> System.out.println(key));  // 不关心 value
 
-// try-with-resources
-try (var _ = lock.lock()) {
-    // 不需要变量名
+// try-with-resources（资源需实现 AutoCloseable，这里忽略其引用）
+try (var _ = acquireResource()) {
+    // 不需要引用资源变量
 }
 
 // for 循环
@@ -378,7 +376,8 @@ try (var scope = new StructuredTaskScope.ShutdownOnSuccess<String>()) {
     scope.fork(() -> queryFromCache());
     scope.fork(() -> queryFromAPI());
 
-    return scope.join(); // 返回第一个成功的结果
+    scope.join();           // 等待所有任务完成
+    return scope.result();   // 返回第一个成功的结果
 }
 ```
 
@@ -387,7 +386,7 @@ try (var scope = new StructuredTaskScope.ShutdownOnSuccess<String>()) {
 Java 21 引入分代 ZGC，性能显著提升。
 
 ```bash
-# 启用分代 ZGC（Java 21 默认）
+# 启用分代 ZGC（Java 21 中需显式开启，默认仍为非分代；分代模式自 JDK 24 起成为默认）
 java -XX:+UseZGC -XX:+ZGenerational -Xmx4g MyApp
 
 # 特点：
@@ -426,4 +425,4 @@ Java 21 的核心特性：
 
 如果你在用 Spring Boot 3.2+/4.x，可以直接使用 Java 21。虚拟线程是最大的卖点——对于 IO 密集型服务，性能提升非常可观。
 
-> 💡 **Java 25 LTS** 已于 2025 年 9 月发布，新增了 Structured Concurrency 正式版、Scoped Values 正式版、Compact Object Headers 等特性。如果是全新项目，建议直接上 Java 25。
+> 💡 **Java 25 LTS** 已于 2025 年 9 月发布，新增了 Scoped Values 正式版（JEP 506）、Compact Object Headers 正式版（JEP 519）等特性；Structured Concurrency 在 Java 25 中仍为预览特性（JEP 505，第五次预览）。如果是全新项目，建议直接上 Java 25。

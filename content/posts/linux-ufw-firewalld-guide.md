@@ -17,7 +17,7 @@ tags = ["UFW", "firewalld", "Linux", "防火墙", "Ubuntu", "CentOS", "运维"]
 |------|---------|-----------|--------|---------|
 | **iptables** | Netfilter | 所有 Linux | 高 | 需要精细控制每条规则、编写脚本自动化、内核级调优 |
 | **UFW** | iptables/nftables | Ubuntu/Debian | 低 | 快速配置主机防火墙、个人服务器、简单规则场景 |
-| **firewalld** | nftables（RHEL9+）/ iptables（RHEL7-8） | RHEL/CentOS/Fedora | 中 | 企业服务器、需要 zone 隔离、动态规则管理 |
+| **firewalld** | nftables（RHEL8+）/ iptables（RHEL7） | RHEL/CentOS/Fedora | 中 | 企业服务器、需要 zone 隔离、动态规则管理 |
 
 **简而言之：**
 

@@ -43,7 +43,7 @@ curl -sfL https://rancher-mirror.rancher.cn/k3s/k3s-install.sh | \
 # 指定版本安装
 curl -sfL https://rancher-mirror.rancher.cn/k3s/k3s-install.sh | \
   INSTALL_K3S_MIRROR=cn \
-  K3S_VERSION=v1.28.4+k3s2 \
+  INSTALL_K3S_VERSION=v1.28.4+k3s2 \
   sh -
 
 # 使用外部数据库（高可用）

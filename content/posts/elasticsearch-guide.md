@@ -834,7 +834,7 @@ output {
 | ES 写入流程？ | 协调节点→主分片→memory buffer→translog→refresh→flush |
 | ES 搜索流程？ | Query Then Fetch：先查 ID，再取文档 |
 | 近实时搜索？ | refresh 默认每秒一次，数据从 buffer 到 cache 才可搜索 |
-| 如何避免脑裂？ | minimum_master_nodes > 候选节点/2，master 与 data 分离 |
+| 如何避免脑裂？ | ES 7+ 已移除 minimum_master_nodes，由集群协调层（voting configuration）自动防脑裂；首次启动配置 cluster.initial_master_nodes，并将 master 与 data 角色分离 |
 | 分片数量怎么定？ | 节点数 × (1~3)，单分片 10-50GB，设置后不可改 |
 | query vs filter？ | query 计算评分，filter 不计算可缓存 |
 | 分析器组成？ | 字符过滤器 + 分词器 + 分词过滤器 |
