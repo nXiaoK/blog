@@ -360,7 +360,7 @@ svn export . ./clean-copy
 svn cleanup
 
 # 删除未版本控制的文件
-svn status | grep "^?" | awk '{print &#36;2}' | xargs rm -rf
+svn status | grep "^?" | awk '{print $2}' | xargs rm -rf
 ```
 
 ## SVN 标准目录结构
