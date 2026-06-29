@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Spring Boot 4.0 正式发布后该怎么升级：核心变化、兼容性影响与实战建议">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#16a34a"/>
+      <stop offset="100%" stop-color="#86efac"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="82%" cy="18%" r="38%">
+      <stop offset="0%" stop-color="rgba(255,255,255,.25)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <rect width="1600" height="900" fill="url(#shine)"/>
+  <g opacity=".12">
+    <circle cx="1310" cy="170" r="160" fill="#fff"/>
+    <circle cx="260" cy="750" r="190" fill="#fff"/>
+    <path d="M1040 470h320M1040 545h250M1040 620h350" stroke="#fff" stroke-width="18" stroke-linecap="round"/>
+    <rect x="990" y="420" width="420" height="270" rx="30" stroke="#fff" stroke-width="10" fill="none"/>
+  </g>
+  <rect x="78" y="74" width="1444" height="752" rx="34" fill="rgba(15,23,42,.18)" stroke="rgba(255,255,255,.22)"/>
+  <text x="128" y="186" font-size="34" font-family="Inter,Arial,sans-serif" fill="rgba(255,255,255,.9)">吾爱主机 · 技术博客</text>
+  <text x="128" y="254" font-size="32" font-family="JetBrains Mono,Consolas,monospace" fill="rgba(255,255,255,.88)">⌘ JAVA / SPRING BOOT 4</text>
+  <text x="128" y="390" font-size="90" font-weight="800" font-family="Inter,'PingFang SC','Microsoft YaHei',sans-serif" fill="#fff">Spring Boot 4.0 升级指南</text>
+  <text x="128" y="490" font-size="48" font-weight="600" font-family="Inter,'PingFang SC','Microsoft YaHei',sans-serif" fill="rgba(255,255,255,.96)">核心变化、兼容性影响与实战建议</text>
+  <text x="128" y="742" font-size="30" font-family="JetBrains Mono,Consolas,monospace" fill="rgba(255,255,255,.85)">blog.waihost.com</text>
+</svg>
