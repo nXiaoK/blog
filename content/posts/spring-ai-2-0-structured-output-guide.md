@@ -4,6 +4,7 @@ date: 2026-06-30T01:15:52
 draft: false
 categories: ["Java", "Spring AI"]
 tags: ["Spring AI", "大模型应用", "结构化输出", "Java", "工程实践"]
+image: "/images/covers/spring-ai-2-0-structured-output-guide.svg"
 ---
 
 在企业应用里，调用大模型最怕的不是“它会说错话”，而是**下游系统把一段不稳定的自然语言当成了稳定数据**：少一个字段、数组变成字符串、JSON 外面多一段解释，都可能让订单流转、风控判断、知识库入库或自动化工单发生不可预期的问题。

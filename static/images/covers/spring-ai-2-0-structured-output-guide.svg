@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Spring AI 2.0 结构化输出实战：让大模型返回可验证的 Java 对象">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="60%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="82%" cy="18%" r="38%">
+      <stop offset="0%" stop-color="rgba(255,255,255,.28)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <rect width="1600" height="900" fill="url(#shine)"/>
+  <g opacity=".12">
+    <circle cx="1320" cy="170" r="160" fill="#fff"/>
+    <circle cx="250" cy="760" r="190" fill="#fff"/>
+    <path d="M1080 500h290M1080 570h220M1080 640h330" stroke="#fff" stroke-width="18" stroke-linecap="round"/>
+    <rect x="1030" y="450" width="390" height="250" rx="30" stroke="#fff" stroke-width="10" fill="none"/>
+  </g>
+  <rect x="78" y="74" width="1444" height="752" rx="34" fill="rgba(15,23,42,.18)" stroke="rgba(255,255,255,.22)"/>
+  <text x="128" y="186" font-size="34" font-family="Inter,Arial,sans-serif" fill="rgba(255,255,255,.9)">吾爱主机 · 技术博客</text>
+  <text x="128" y="254" font-size="32" font-family="JetBrains Mono,Consolas,monospace" fill="rgba(255,255,255,.88)">⌘ JAVA / SPRING</text>
+  <text x="128" y="408" font-size="96" font-weight="800" font-family="Inter,'PingFang SC','Microsoft YaHei',sans-serif" fill="#fff">Spring AI 2.0 结构化输出实战</text>
+  <text x="128" y="742" font-size="30" font-family="JetBrains Mono,Consolas,monospace" fill="rgba(255,255,255,.85)">blog.waihost.com</text>
+</svg>

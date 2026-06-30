@@ -4,6 +4,7 @@ date: 2026-06-29T15:21:35
 draft: false
 categories: ["Java", "Spring Boot"]
 tags: ["Spring Boot", "Java", "版本升级", "依赖管理", "工程实践"]
+image: "/images/covers/spring-boot-3-5-16-final-oss-guide.svg"
 ---
 
 Spring 团队在 2026-06-25 发布了 **Spring Boot 3.5.16**。如果你还在 3.5.x 线上维护窗口内，这个版本值得关注，因为它不仅是一个常规补丁版，还带着一个更重要的信号：**3.5.x 已经来到开源维护周期的最后阶段**。
