@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Headlamp Cluster API 插件发布：Kubernetes 多集群生命周期管理封面">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0.52" stop-color="#12315f"/>
+      <stop offset="1" stop-color="#031926"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="58%">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020617" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <g opacity="0.18" stroke="#93c5fd" stroke-width="1">
+    <path d="M0 710 C220 650 350 790 560 730 S980 560 1210 650 1430 790 1600 720" fill="none"/>
+    <path d="M0 225 C220 160 390 300 640 230 S1070 130 1320 250 1510 330 1600 290" fill="none"/>
+  </g>
+  <g transform="translate(980 210)" filter="url(#shadow)">
+    <rect x="0" y="0" width="360" height="360" rx="42" fill="#0b1220" stroke="#38bdf8" stroke-opacity="0.55"/>
+    <circle cx="180" cy="180" r="86" fill="#0f766e" opacity="0.95"/>
+    <circle cx="180" cy="180" r="50" fill="#22d3ee" opacity="0.85"/>
+    <g stroke="#e0f2fe" stroke-width="10" stroke-linecap="round">
+      <path d="M180 74v40M180 246v40M74 180h40M246 180h40"/>
+      <path d="M105 105l29 29M255 105l-29 29M105 255l29-29M255 255l-29-29"/>
+    </g>
+    <text x="180" y="330" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#e0f2fe" font-weight="700">CAPI Map View</text>
+  </g>
+  <g transform="translate(210 205)">
+    <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#7dd3fc" font-weight="700">吾爱主机 · 技术博客</text>
+    <text x="0" y="88" font-family="Arial, Helvetica, sans-serif" font-size="72" fill="#f8fafc" font-weight="800">Headlamp Cluster API</text>
+    <text x="0" y="172" font-family="Arial, Helvetica, sans-serif" font-size="64" fill="#f8fafc" font-weight="800">多集群管理可视化</text>
+    <text x="0" y="250" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#cbd5e1">Dashboard · Map View · Machine · Scale · GitOps</text>
+    <g transform="translate(0 310)">
+      <rect x="0" y="0" width="156" height="48" rx="24" fill="#0369a1"/>
+      <text x="78" y="32" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#e0f2fe" font-weight="700">Kubernetes</text>
+      <rect x="176" y="0" width="150" height="48" rx="24" fill="#0f766e"/>
+      <text x="251" y="32" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#ccfbf1" font-weight="700">Cluster API</text>
+      <rect x="346" y="0" width="142" height="48" rx="24" fill="#7c3aed"/>
+      <text x="417" y="32" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#ede9fe" font-weight="700">Headlamp</text>
+    </g>
+  </g>
+  <text x="210" y="805" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#94a3b8">blog.waihost.com</text>
+</svg>
