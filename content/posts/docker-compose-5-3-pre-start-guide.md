@@ -1,6 +1,6 @@
 ---
 title: "Docker Compose 5.3 原生 pre_start 初始化容器实战：让本地编排更接近 Kubernetes Init Container"
-date: 2026-07-08T09:08:00
+date: 2026-07-08T09:08:00+08:00
 draft: false
 categories: ["Docker", "容器"]
 tags: ["Docker Compose", "pre_start", "Init Container", "容器编排", "DevOps", "升级指南"]
